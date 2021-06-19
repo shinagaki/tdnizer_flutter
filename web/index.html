@@ -25,6 +25,30 @@
 
   <title>tdnizer_flutter</title>
   <link rel="manifest" href="manifest.json">
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+  
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCGyJ3BjeIBMkUuZFs0saebcNaQQq6n6tI",
+      authDomain: "tdnizer.firebaseapp.com",
+      projectId: "tdnizer",
+      storageBucket: "tdnizer.appspot.com",
+      messagingSenderId: "1034827034081",
+      appId: "1:1034827034081:web:34236fbfb348ba7c9db6a0"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
